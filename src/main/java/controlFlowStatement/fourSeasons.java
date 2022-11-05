@@ -1,4 +1,4 @@
-package SwitchPractice;
+package controlFlowStatement;
 import java.util.Calendar;
 
 public class fourSeasons {

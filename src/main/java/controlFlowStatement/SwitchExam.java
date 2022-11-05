@@ -1,4 +1,4 @@
-package SwitchPractice;
+package controlFlowStatement;
 
 public class SwitchExam {
 
