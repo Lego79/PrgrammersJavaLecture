@@ -18,7 +18,7 @@ public class EnumExam {
         gender2 = Gender.MALE;
         gender2 = Gender.FEMALE; //타입을 지정 해주면 메일과 피메일만 대입이 가능
 
-        gender2 = "boy";
+
 
 
     }
