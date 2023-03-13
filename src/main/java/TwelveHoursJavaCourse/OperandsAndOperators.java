@@ -12,7 +12,7 @@ public class OperandsAndOperators {
         JOptionPane.showMessageDialog(null, "You are"+ age + "years old");
 
         double height = Integer.parseInt(JOptionPane.showInputDialog("Enter your height"));
-        JOptionPane.showMessageDialog(null, "You are"+ height + "cm tall");
+        JOptionPane.showMessageDialog(null, "You are"+ height + "feet tall");
 
 
     }
