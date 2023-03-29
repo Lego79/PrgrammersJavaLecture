@@ -52,6 +52,7 @@ public class arraysPracticing {
             }
 
         }
+        //chat gpt, copilot x 사용 해보기
 
     }
 
