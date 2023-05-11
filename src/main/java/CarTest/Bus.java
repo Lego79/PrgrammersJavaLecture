@@ -4,18 +4,21 @@ public class Bus extends Car {
 
     private int seat;
 
-    Bus bus1 = new Bus();
+    public Bus(int wheel, int speed, int seat) {
+        super(wheel, speed);
+        this.seat = seat;
+    }
 
 
+    public void setSpeed(int speed) {
+        if(speed > 100 ) {
 
-    public int setSpeed() {
-        if(bus1.speed > 100 ) {
-
-            return 0;
+            System.out.println("과속");
 
         }   else {
 
-            return 99;
+            super.setSpeed(speed);
+            System.out.println(speed + "정상속도");
 
         }
     }

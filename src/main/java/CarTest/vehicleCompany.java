@@ -4,20 +4,15 @@ public class vehicleCompany {
 
     public static void main(String[] args) {
 
-        Bus bus1 = new Bus();
+        Bus bus1 = new Bus(4, 120, 30);
 
 //        Car car1 = new Bus();
 //
 //        bus1.setSpeed(99);
 
-       bus1.Car(100, 4);
-
-       int speed = bus1.getSpeed();
-       int wheel = bus1.getWheel();
+        System.out.println("시속" + bus1.getSpeed() + "   " + bus1.getSeat() + "자리" + "   " + bus1.getWheel());
 
 
-
-        System.out.println(speed + wheel);
 
 
     }

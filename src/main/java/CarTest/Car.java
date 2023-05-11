@@ -2,8 +2,17 @@ package CarTest;
 
 public class Car {
 
-    public int wheel;
-    public int speed;
+
+
+    private int wheel;
+    private int speed;
+
+    public Car(int wheel, int speed) {
+
+        setWheel(wheel);
+        setSpeed(speed);
+
+    }
 
 
 
@@ -22,7 +31,7 @@ public class Car {
     }
     public void setSpeed(int speed) {
 
-        this.speed = this.speed;
+        this.speed = speed;
     }
 
     public void Car(int speed, int wheel) {
