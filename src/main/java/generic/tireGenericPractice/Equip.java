@@ -1,10 +1,10 @@
 package generic.tireGenericPractice;
 
-public class Box<T> {
+public class Equip<T> {
 
     public T weapon;
 
-    public Box(T weapon) {
+    public Equip(T weapon) {
         this.weapon = weapon;
     }
 
