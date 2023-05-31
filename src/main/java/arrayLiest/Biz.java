@@ -5,13 +5,11 @@ import java.util.List;
 
 public class Biz {
 
-    public Biz() {
-    }
+
 
     public List<Book> convert(String[] contents) {
 
         List<Book> bookList = new ArrayList<>();
-
 
         for(int i = 0 ; i < contents.length; i++) {
 
@@ -25,13 +23,13 @@ public class Biz {
             String isbn = data[5];
             Book book = new Book(category, title, author, publisher, price, isbn);
             bookList.add(book);
-
-
-
-
         }
-
         return bookList;
+    }
+
+    public void bookPrintInfo() {
+
+
 
     }
 
